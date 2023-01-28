@@ -1,0 +1,15 @@
+.formGroup {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 10px;
+  color: rgb(32, 30, 30);
+}
+
+label:last-child {
+  margin-bottom: 0px;
+}

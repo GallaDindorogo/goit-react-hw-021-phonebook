@@ -1,18 +1,26 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 400px 400px;
+  grid-template-columns: 600px 600px;
+  margin-left: 40px;
+
   gap: 30px;
 }
 
 .block {
+  background-color: rgb(245, 245, 245);
   border: 1px solid;
   border-radius: 5px;
   padding: 15px;
 }
 
-.formGroup {
-  display: grid;
-  grid-template-columns: 50px 1fr;
-  gap: 15px;
-  margin-bottom: 15px;
+h3 {
+  margin-left: 40px;
+}
+
+.allContacts {
+  margin-bottom: 10px;
+}
+
+.titleContacts {
+  margin-top: 5px;
 }

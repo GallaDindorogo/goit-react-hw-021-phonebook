@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.item {
+  background-color: rgb(245, 245, 245);
+  padding: 0;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  margin-right: 30px;
+  margin-top: 0;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  max-height: 30px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+  font-weight: bold;
+
+  font-size: 14px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #a51d1d;
+}
